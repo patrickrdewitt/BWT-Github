@@ -2,13 +2,14 @@
 
 .nav {
     color:#5a5a5a;
-    font-size:14px;
+    font-size:12px;
     font-weight:bold;
     padding-top:14px;
     padding-bottom:5px;
     padding-left:10px;
     padding-right:10px;
-    text-transform:uppercase;
+    /*text-transform:uppercase;*/
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .nav li {
@@ -18,7 +19,9 @@
 
 .jumbotron {
     height:500px;
-    background-image:url('http://i.imgur.com/5wDa0jX.jpg');
+    /* background-image:url('http://i.imgur.com/5wDa0jX.jpg'); */
+    background-image:url('http://i.imgur.com/HtlSkuo.jpg');
+    background-size: cover;
 }
 
 .jumbotron .container {
@@ -27,26 +30,47 @@
 }
 
 .jumbotron h1 {
-  color: #FFE873;
-  font-size: 60px;  
+  /* color: #FFE873; */
+  color: #fff;
+  font-size: 80px;  
   font-weight: bold;
   text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  /*-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;*/
 }
 
 
 .story h3 {
-	font-size: 36px;
+	font-size: 48px;
 	font-weight: bold;
-	text-transform: uppercase;
 	text-align: center;
-
+	font-family: 'Noto Sans', sans-serif;
 }
 
-.story .container {
+.story .container p {
 	position: relative;
 	padding-top:50px;
 	padding-bottom: 50px;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 220px;
+	padding-right: 220px;
 	font-size: 16px;
+	/*font-family: 'Arvo', serif;*/
+	/*font-family: 'Bitter', serif;*/
+	font-family: 'Roboto Slab', serif;
+	text-align: justify;
+	position: relative;
+}
+
+
+.vandaljumbo {
+    height:500px;
+    background-image:url('http://i.imgur.com/5wDa0jX.jpg');
+    background-size: cover;
+}
+
+.forwardjumbo {
+    height:500px;
+    background-image:url('http://i.imgur.com/tahJja6.jpg');
+    background-size: cover;
 }
